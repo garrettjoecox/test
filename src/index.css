@@ -1,4 +1,3 @@
-
 html, body {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@ html, body {
   max-width: 100vw;
   max-height: 100vh;
   overflow: hidden;
-  background: #222;
+  background: #EEE;
   display: flex;
 }
 
@@ -21,11 +20,5 @@ html, body {
 .app {
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.app__splash {
-  color: #AAA;
-  font-size: 2.5rem;
+  flex-direction: column;
 }

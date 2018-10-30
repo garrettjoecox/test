@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 4rem;
+  margin-top: 1rem;
+}
+
+.about__container {
+  flex: 1;
+  max-width: 60rem;
+}

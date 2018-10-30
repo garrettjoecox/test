@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 4rem;
+  margin-top: 1rem;
+}
+
+.home__container {
+  flex: 1;
+  background: #222;
+  max-width: 60rem;
+  border-radius: 5px;
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+}
+
+.home__dummy-header {
+  display: flex;
+  padding: 0.8rem;
+}
+
+.home__dummy-header-item {
+  margin-right: 0.4rem;
+  min-width: 0.8rem;
+  min-height: 0.8rem;
+  border-radius: 100%;
+}
+
+.home__dummy-header-item--red {
+  background: rgb(238, 107, 95);
+}
+
+.home__dummy-header-item--yellow {
+  background: rgb(246, 191, 79);
+}
+
+.home__dummy-header-item--green {
+  background: rgb(95, 197, 84);
+}
