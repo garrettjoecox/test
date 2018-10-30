@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import portrait from './portrait.jpg';
 import './index.css';
 
 class About extends Component {
@@ -6,7 +7,23 @@ class About extends Component {
     return (
       <div className="about">
         <div className="about__container">
-          <h2>About</h2>
+          <div className="about__left">
+            <img className="about__portrait" src={portrait} alt="Portrait" />
+          </div>
+          <div className="about__right">
+            <div className="about__heading">
+              Hello world, I'm <span className="about__heading--purple">Garrett Cox</span>.
+            </div>
+            <div className="about__content">
+              software engineer
+
+              family
+
+              what I do in my free time
+
+              what I listen to
+            </div>
+          </div>
         </div>
       </div>
     )

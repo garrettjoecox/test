@@ -14,7 +14,7 @@ class Nav extends Component {
         <div className="nav__container">
           <div className="nav__spacer"></div>
           {routes.map(r => {
-            return <NavLink exact className="nav__item" activeClassName="nav__item--active" to={r.to}>{r.text}</NavLink>
+            return <NavLink key={r.text} exact className="nav__item" activeClassName="nav__item--active" to={r.to}>{r.text}</NavLink>
           })}
         </div>
       </div>

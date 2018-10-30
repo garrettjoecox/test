@@ -7,6 +7,14 @@
 }
 
 .home__container {
+  padding: 1rem;
+  padding-right: 0;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  display: flex;
+  line-height: 18px;
+  flex-direction: column;
   flex: 1;
   background: #222;
   max-width: 60rem;
@@ -16,7 +24,7 @@
 
 .home__dummy-header {
   display: flex;
-  padding: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .home__dummy-header-item {
@@ -36,4 +44,36 @@
 
 .home__dummy-header-item--green {
   background: rgb(95, 197, 84);
+}
+
+.home__content {
+  /* flex: 1; */
+  overflow: scroll;
+  white-space: pre-line !important;
+}
+
+.home__content-line {
+  white-space: pre;
+}
+
+.home__input-container {
+  flex: 0 0 auto;
+  display: flex;
+}
+
+.home__input-prefix {
+  padding-right: 0.6rem;
+}
+
+.home__input {
+  text-rendering: geometricPrecision;
+  line-height: 18px;
+  font-family: monospace;
+  color: white;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }

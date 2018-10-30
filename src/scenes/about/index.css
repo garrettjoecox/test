@@ -7,6 +7,32 @@
 }
 
 .about__container {
+  display: flex;
   flex: 1;
   max-width: 60rem;
+}
+
+.about__left {
+}
+
+.about__right {
+  padding: 0 2rem;
+  flex: 1;
+}
+
+.about__portrait {
+  border-radius: 4px;
+  max-height: 25rem;
+}
+
+.about__heading {
+  font-size: 2.5rem;
+}
+
+.about__heading--purple {
+  color: #7E57C2;
+}
+
+.about__content {
+
 }
