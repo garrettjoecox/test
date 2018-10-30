@@ -1,7 +1,10 @@
 {
   "name": "personalsite",
   "version": "0.1.0",
+  "description": "Personal Website",
   "private": true,
+  "author": "Garrett Cox",
+  "license": "GPL-3.0",
   "homepage": "http://garrettcox.io/test",
   "scripts": {
     "start": "react-scripts start",
