@@ -53,7 +53,19 @@
 }
 
 .home__content-line {
+  text-rendering: geometricPrecision;
   white-space: pre;
+  color: #F5F5F5;
+}
+
+.home__content-line a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.home__content-line a:hover {
+  color: #64b5f6;
+  text-decoration: underline;
 }
 
 .home__input-container {
